@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>netcoreapp3.1</TargetFramework>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="FuzzySharp" Version="2.0.2" />
+		<PackageReference Include="MongoDB.Driver" Version="2.11.6" />
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+		<PackageReference Include="Phonix" Version="1.0.2" />
+		<PackageReference Include="Universal.Phonetic.Metaphone" Version="1.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Update="moviesData.json">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </None>
+	</ItemGroup>
+
+</Project>
